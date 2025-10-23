@@ -1,10 +1,17 @@
 char opt;
+<<<<<<< HEAD
 const int BUTTON_PIN = 7; 
+=======
+const int BUTTON_PIN = 7;
+>>>>>>> 2873da569afab1daf215e57d7e944ab3dff93827
 const int LED_RED = 13;
 const int LED_YELLOW = 12;
 const int LED_GREEN = 8;
 int step = 0; 
+<<<<<<< HEAD
 
+=======
+>>>>>>> 2873da569afab1daf215e57d7e944ab3dff93827
 void setup() {
   pinMode(LED_RED, OUTPUT);
   pinMode(LED_YELLOW, OUTPUT);
@@ -20,7 +27,11 @@ void setup() {
 void loop() {
  
   if (digitalRead(BUTTON_PIN) == LOW) {
+<<<<<<< HEAD
     delay(50); 
+=======
+    delay(50);
+>>>>>>> 2873da569afab1daf215e57d7e944ab3dff93827
     if (digitalRead(BUTTON_PIN) == LOW) { 
       step = (step % 9) + 1; 
       handleStep(step);
@@ -28,7 +39,11 @@ void loop() {
     }
   }
 
+<<<<<<< HEAD
   
+=======
+  // Mantén la funcionalidad original por serial
+>>>>>>> 2873da569afab1daf215e57d7e944ab3dff93827
   if (Serial.available() > 0) {
     opt = Serial.read();
 

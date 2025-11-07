@@ -45,8 +45,10 @@ pip list
 pip install -r requirements.txt
 pip freeze > requirements.txt
 python -m pip install --upgrade pip
-pip install pyserial
+
 pip install serial
+pip install pyserial
+
 pip install psycopg2
 
 

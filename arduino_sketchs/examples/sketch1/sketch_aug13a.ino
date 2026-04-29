@@ -16,7 +16,7 @@ void loop() {
   digitalWrite(LED2, LOW);
   digitalWrite(LED3, LOW);
   delay(500);
-  
+  DS
   // ROJO - 2 segundos
   digitalWrite(LED1, HIGH);
   delay(2000);
